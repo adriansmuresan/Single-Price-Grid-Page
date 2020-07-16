@@ -21,6 +21,9 @@ body {
   background-color: #ffffff;
   max-width: 800px;
   margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
 }
 
 section {
@@ -40,6 +43,19 @@ section {
 h1 {
   color: hsl(179, 62%, 43%);
   font-size: 40px;
+}
+
+.yellow-text {
+  color: hsl(71, 73%, 54%);
+}
+
+p {
+  font-size: 18px;
+  color: hsl(218, 22%, 67%);
+}
+
+section.cyan p {
+  color: #ffffff;
 }
 
 footer {
