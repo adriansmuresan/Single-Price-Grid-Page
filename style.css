@@ -107,3 +107,9 @@ p.faded span {
 footer {
   margin: auto auto 0 auto;
 }
+
+@media screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+}
