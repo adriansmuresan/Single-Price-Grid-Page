@@ -66,6 +66,30 @@ section.cyan p {
   color: #ffffff;
 }
 
+button {
+  background-color: hsl(71, 73%, 54%);
+  width: 100%;
+  padding: 15px 0;
+  font-family: 'Karla', sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 5px;
+  font-weight: 700;
+  border: none;
+  margin-top: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  opacity: 0.6;
+  font-size: 15px;
+}
+
+ul li {
+  line-height: 23px;
+}
+
 footer {
   margin: auto auto 0 auto;
 }
