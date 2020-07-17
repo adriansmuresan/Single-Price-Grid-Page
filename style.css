@@ -40,6 +40,14 @@ section {
   color: #ffffff;
 }
 
+.row {
+  display: flex;
+}
+
+.row > section {
+  flex: 1;
+}
+
 h1 {
   color: hsl(179, 62%, 43%);
   font-size: 40px;
